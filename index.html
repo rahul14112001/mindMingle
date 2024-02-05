@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quizGame</title>
+    <link rel="stylesheet" href="./CSS/style.css"/>
+</head>
+<body>
+    <div class="main">
+        <div id="box">
+            <h2 id="quesHead">1) this is the dummy question</h2>
+            <div class="row">
+                <input class="options"  id="option1"  type="radio" value="a" name="option">
+                <label for="option1">option 1</label>
+            </div>
+            <div class="row">
+                <input class="options"  id="option2" type="radio" value="b" name="option">
+                <label for="option2">option 2</label>
+            </div>
+            <div class="row">
+                <input class="options"  id="option3" type="radio" value="c" name="option">
+                <label for="option3">option 3</label>
+            </div>
+            <div class="row">
+                <input class="options"  id="option4" type="radio" value="d" name="option">
+                <label for="option4">option 4</label>
+            </div>
+            <button class="btn" onclick="prevQuiz()">Previous</button>
+            <button class="btn" onclick="nextQuiz()">Next</button>
+            <button class="btn" onclick="submitQuiz()">Submit</button>
+        </div>
+    </div>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
